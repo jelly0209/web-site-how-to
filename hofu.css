@@ -44,7 +44,9 @@ header {
   color: white;
 }
 
-
+.a1 {
+  text-align: center;
+}
 
 .h1{
   bottom: 200px;
@@ -76,9 +78,14 @@ header {
   
 }
 
+.s1 {
+  text-align: center;
+}
+
+
 .fade{
   
-  text-align: center;
+  margin: 0 auto;
   opacity : 0;
   transition: opacity 3s;
   font-size: 32px;
