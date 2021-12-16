@@ -29,20 +29,25 @@ header {
 
 .box0 {
   text-align: center;
+  align-items: center;
   height: 400px;
   font-family: serif;
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  font-family: fantasy;
+  
 }
 
 .box1 {
   display: flex;
   flex-direction: row;
   max-width: 750px;
-  height: 500px;
+  height: 400px;
   margin: 20px auto;
   border-top: thin solid black ;
   font-family: serif;
-  
+ 
 }
 
 .text h2,p{
@@ -65,7 +70,7 @@ header {
   display: flex;
   flex-direction: row;
   max-width: 750px;
-  height: 500px;
+  height: 400px;
   margin: 20px auto;
   border-top: thin solid black ;
   font-family: serif;
@@ -76,6 +81,7 @@ header {
   transition: opacity 3s;
   font-weight: bold;
   font-family: serif;
+  
 }
 
 .fade.view{
@@ -90,3 +96,4 @@ a {
 .s1 {
   text-align: center;
 }
+
